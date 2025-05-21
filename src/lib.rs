@@ -3,8 +3,9 @@ use std::any::Any;
 use entities::Entities;
 use resource::Resource;
 
-pub mod entities;
-pub mod resource;
+pub mod custom_errors;
+mod entities;
+mod resource;
 
 #[derive(Default, Debug)]
 pub struct World {
